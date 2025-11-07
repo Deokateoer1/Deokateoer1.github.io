@@ -130,7 +130,103 @@ Monitor 05
    - Waarde: 36934  Minimum: 0  Maximum: 1415
    - Resultaat: MISLUKT
 
-[...verdere monitorresultaten...]
+6. Door fabrikant gedefinieerd
+   - Component ID: 34
+   - Waarde: 3932  Minimum: 51270  Maximum: 0
+   - Resultaat: MISLUKT
+
+7. Rijke naar magere sensor schakeltijd berekend
+   - Component ID: 08
+   - Waarde: 65535  Minimum: 0  Maximum: 0
+   - Resultaat: MISLUKT
+
+Monitor 06
+8. Mager naar rijk sensor drempelspanning constant
+   - Component ID: 01
+   - Waarde: 0  Minimum: 0  Maximum: 30
+   - Resultaat: GESLAAGD
+
+9. Door fabrikant gedefinieerd
+   - Component ID: 46
+   - Waarde: 1538  Minimum: 0  Maximum: 0
+   - Resultaat: MISLUKT
+
+10. Door fabrikant gedefinieerd
+    - Component ID: 1E
+    - Waarde: 12614  Minimum: 0  Maximum: 1539
+    - Resultaat: MISLUKT
+
+11. Door fabrikant gedefinieerd
+    - Component ID: 00
+    - Waarde: 65535  Minimum: 0  Maximum: 4678
+    - Resultaat: MISLUKT
+
+12. Mager naar rijk sensor drempelspanning constant
+    - Component ID: 04
+    - Waarde: 0  Minimum: 0  Maximum: 65535
+    - Resultaat: GESLAAGD
+
+Monitor 01
+13. Rijk naar mager sensor drempelspanning constant
+    - Component ID: 01
+    - Waarde: 0  Minimum: 0  Maximum: 65535
+    - Resultaat: GESLAAGD
+
+14. EWMA (Exponentieel Gewogen Voortschrijdend Gemiddelde) ontstekingsfouten voor laatste 200 rijcycli
+    - Component ID: 46
+    - Waarde: 258  Minimum: 0  Maximum: 0
+    - Resultaat: MISLUKT
+
+Monitor 02
+15. Mager naar rijk sensor drempelspanning constant
+    - Component ID: 01
+    - Waarde: 374  Minimum: 0  Maximum: 1126
+    - Resultaat: GESLAAGD
+
+16. Door fabrikant gedefinieerd
+    - Component ID: 46
+    - Waarde: 514  Minimum: 0  Maximum: 319
+    - Resultaat: MISLUKT
+
+17. Lage sensorspanning voor schakeltijdberekening constant
+    - Component ID: 00
+    - Waarde: 21062  Minimum: 0  Maximum: 515
+    - Resultaat: MISLUKT
+
+18. Rijk naar mager sensor drempelspanning constant
+    - Component ID: 02
+    - Waarde: 2560  Minimum: 40262  Maximum: 0
+    - Resultaat: MISLUKT
+
+19. Mager naar rijk sensor drempelspanning constant
+    - Component ID: 02
+    - Waarde: 416  Minimum: 0  Maximum: 2560
+    - Resultaat: GESLAAGD
+
+20. Door fabrikant gedefinieerd
+    - Component ID: 46
+    - Waarde: 517  Minimum: 0  Maximum: 282
+    - Resultaat: MISLUKT
+
+21. Hoge sensorspanning voor schakeltijdberekening constant
+    - Component ID: 66
+    - Waarde: 38726  Minimum: 0  Maximum: 518
+    - Resultaat: MISLUKT
+
+22. Door fabrikant gedefinieerd
+    - Component ID: 58
+    - Waarde: 768  Minimum: 60998  Maximum: 0
+    - Resultaat: MISLUKT
+
+23. Mager naar rijk sensor drempelspanning constant
+    - Component ID: 07
+    - Waarde: 297  Minimum: 0  Maximum: 2560
+    - Resultaat: GESLAAGD
+
+24. Door fabrikant gedefinieerd
+    - Component ID: 46
+    - Waarde: 520  Minimum: 0  Maximum: 331
+    - Resultaat: MISLUKT
 </pre>
 
 <h3>Alle sensoren</h3>
@@ -150,24 +246,97 @@ Temperatuur
 - Temperatuur aangezogen lucht: 13°C
 - Luchtstroom naar motor (MAF): 0 g/sec
 
+Gasklep
+- Gasklepstand: 0%
+- Gewenste Status secundaire lucht: Van buitenlucht of uit
+
 Zuurstofsensoren Bank 1
 - Zuurstofsensor 1 Bank 1 Spanning: 0.43 V
+- Zuurstofsensor 1 Bank 1 Korte termijn brandstofaanpassing: 0%
 - Zuurstofsensor 2 Bank 1 Spanning: 0.43 V
+- Zuurstofsensor 2 Bank 1 Korte termijn brandstofaanpassing: n.v.t.
+
+Zuurstofsensoren Bank 2
+- Zuurstofsensor 1 Bank 2 Spanning: 0.43 V
+- Zuurstofsensor 1 Bank 2 Korte termijn brandstofaanpassing: 0%
+- Zuurstofsensor 2 Bank 2 Spanning: 0.43 V
+- Zuurstofsensor 2 Bank 2 Korte termijn brandstofaanpassing: n.v.t.
+
+Brandstof
+- Brandstofeconomizer op basis van brandstofsysteem en gasklepstand: -1
+- Momentaan brandstofverbruik: 0 L/h
+- Momentaan brandstofverbruik L/100 km: L/100km
+
+Afstand en verbruik
+- Afgelegde afstand totaal: 145.23 km
+- Vermogen van MAF: 0 pk
+- Versnelling voertuig: 0 g
+- Gemiddelde snelheid: 0 km/h
+- Gemiddelde snelheid GPS: 1.19 km/h
+- Gemiddeld brandstofverbruik: n.v.t. L/100km
+- Gemiddeld brandstofverbruik totaal: 3.45 L/100km
+- Gemiddeld brandstofverbruik 10 sec: n.v.t. L/100km
+- Hoogte GPS: 47 m
+- Verbruikte brandstof: 0 L
+- Verbruikte brandstof totaal: 5.02 L
+
+EWMA Monitors
+- EWMA (exponentieel gewogen voortschrijdend gemiddelde) berekent voor laatste tien (10) rijcycli
+- Monitor ID (MID): 01
+- Drempelspanning sensor van mager naar hoog constant
+- Monitor ID (MID): 02
+- EWMA (exponentieel gewogen voortschrijdend gemiddelde) berekent voor laatste tien (10) rijcycli
+- Monitor ID (MID): 01
+
+GPS en snelheid
+- Snelheid GPS: 0.79 km/h
+
+Brandstofprijzen
+- Prijs verbruikte brandstof: 0 zł
+- Prijs verbruikte brandstof totaal: 5.07 zł
+
+Vermogen en koppel
+- Momentaan motorvermogen volgens brandstofverbruik: 0 pk
+- Maximaal koppel volgens brandstofverbruik: n.v.t. Nm
+
+Laden
+- Berekende lading: n.v.t. bar
+- Motortoerental x1000: 0 rpm
 
 OBD
 - OBD module spanning: 10.7 V (10.5 V)
-- Status: MIL-UIT
+- Ondersteunde OBD-normen ondersteund door dit voertuig: OBD-II zoals gedefinieerd door de CARB
+
+Systeemstatus
+- Reset afstand, verbruikte brandstof, gemiddelde snelheid, gemiddeld brandstofverbruik
+- Huidige tijd: 20:44:01
+- Status sinds reset parameters: MIL-UIT
 - DTC telling: 0
+- Ontstekingsfout: Beschikbaar/Voltooid
+- Brandstofsysteem: Beschikbaar/Voltooid
+- Componenten: Beschikbaar/Voltooid
+- Katalysator: Beschikbaar/Niet voltooid
+- Verwarmde katalysator: Niet beschikbaar/Voltooid
+- Verdampingssysteem: Beschikbaar/Niet voltooid
+- Secundair luchtsysteem: Beschikbaar/Niet voltooid
+- Aircokoelmiddel: Niet beschikbaar/Voltooid
+- Zuurstofsensor: Beschikbaar/Niet voltooid
+- Zuurstofsensorverwarming: Beschikbaar/Niet voltooid
+- EGR-systeem: Niet beschikbaar/Voltooid
 
 Brandstofsysteemstatus
 - ECU 1: Open lus vanwege onvoldoende motortemperatuur
 - ECU 2: Open lus vanwege onvoldoende motortemperatuur
 
+Motorbelasting
+- Berekende motorbelasting: 0%
+
+Koelvloeistoftemperatuur
+- Koelvloeistoftemperatuur: 13°C
+
 Bank 1
 - Korte termijn brandstofaanpassing: 0%
 - Lange termijn brandstofaanpassing: -4.69%
-
-Koelvloeistoftemperatuur: 13°C
 </pre>
 
 <h2 class="big">HOE VIND JE DE MANIER WAAROP DE INFORMATIE IS WEERGEGEVEN?? VET COOL, TOCH?</h2>
